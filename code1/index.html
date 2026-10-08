@@ -9,9 +9,13 @@
   </head>
   <body>
     <header>
-        <div id="title-card">
-            <div class="container-half" id="tcch-1"></div>
-            <div class="container-half" id="tcch-2"></div>
+        <div id="background">
+            <div id="cursor-overlay" class="screen-overlay"></div>
+            <div id="background-overlay" class="screen-overlay">
+                <video autoplay muted loop playsinline aria-hidden="true">
+                    <source src="./assets/videos/purple_sunset.mp4" type="video/mp4" />
+                </video>
+            </div>
         </div>
 
       <div class="container">
@@ -25,57 +29,6 @@
         </nav>
       </div>
     </header>
-
-    <section class="hero">
-      <div class="container hero-content">
-        <div>
-          <span class="tag">Web Developer</span>
-          <h1>Hi, I’m Alex Smith.</h1>
-          <p>
-            I design and build modern digital experiences with a focus on clean design,
-            performance, and usability.
-          </p>
-          <div class="actions">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-secondary">Contact Me</a>
-          </div>
-        </div>
-
-        <div class="profile-card">
-          <div class="profile-placeholder">A</div>
-        </div>
-      </div>
-    </section>
-
-    <main>
-      <div class="container">
-        <section id="about" class="section">
-          <h2>About Me</h2>
-          <p>
-            I’m a developer passionate about building responsive, user-friendly websites
-            and applications that look great on every device.
-          </p>
-        </section>
-
-        <section id="projects" class="section">
-          <h2>Featured Projects</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>Project One</h3>
-              <p>Business landing page focused on conversions and clear messaging.</p>
-            </article>
-            <article class="card">
-              <h3>Project Two</h3>
-              <p>Portfolio website built with modern UI patterns and responsive layouts.</p>
-            </article>
-            <article class="card">
-              <h3>Project Three</h3>
-              <p>Web app interface designed for speed, clarity, and accessibility.</p>
-            </article>
-          </div>
-        </section>
-      </div>
-    </main>
 
     <footer id="contact">
       <div class="container">
