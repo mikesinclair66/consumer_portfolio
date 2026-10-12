@@ -11,12 +11,23 @@ body{
     margin-top: 42px;
 }
 
+#Resume{
+    min-height: 420px;
+}
+
+#Resume object{
+    height: calc(100% - 6px);
+}
+
 .layout-container{
     background-color: #2B3442;
     color: rgb(203, 203, 203);
-    width: 810px;
     padding: 15px 25px;
     border-radius: 32px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 810px;
 }
 
 .flex-section{
@@ -58,12 +69,9 @@ h1, h2, h3, h4, h5, h6, #header-top-left #title, footer{
     cursor: pointer;
 }
 
-/*
-#header-bottom div:first-child{
-    opacity: 1;
-}
-    */
-
+/**
+ * TODO: the underline animation on the release of a hover should close right, not left
+ */
 #header-bottom > div::after{
     content: "";
     position: absolute;

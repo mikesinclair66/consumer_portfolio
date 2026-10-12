@@ -18,3 +18,8 @@ headerItems.forEach((item) => {
         item.classList.add("active");
     });
 });
+
+window.onload = () => {
+    document.querySelector("#Resume").style.height = document
+    .querySelector("#first-instance").offsetHeight + 'px';
+};
