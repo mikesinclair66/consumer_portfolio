@@ -23,3 +23,7 @@ window.onload = () => {
     document.querySelector("#Resume").style.height = document
     .querySelector("#first-instance").offsetHeight + 'px';
 };
+
+headerItems[1].addEventListener("click", () => {
+    document.querySelector("#Resume").style.display = "block";
+});
