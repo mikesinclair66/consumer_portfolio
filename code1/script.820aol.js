@@ -1,4 +1,3 @@
-/*
 const date = new Date();
 
 document.querySelector("#month").textContent = date.toLocaleString("en-US", {
@@ -6,7 +5,6 @@ document.querySelector("#month").textContent = date.toLocaleString("en-US", {
 });
 document.querySelector("#day").textContent = date.getDate();
 document.querySelector("#year").textContent = date.getFullYear();
-*/
 
 const headerItems = document.querySelectorAll("#header-bottom > div");
 
